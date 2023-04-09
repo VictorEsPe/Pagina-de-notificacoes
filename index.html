@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+  
+  <title>Notifications page</title>
+
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div>
+        <h1>Notificações</h1>
+        <span class="unread-notifications" id="unread-notifications"></span>
+      </div>
+
+      <span class="mark-all-read-btn">Marcar todas com lidas</span>
+    </header>
+
+    <div class="notifications">
+      <div class="notification unread">
+        <img src="./assets/images/avatar-mark-webber.webp" alt="Foto de perfil" class="profile-picture">
+
+        <div>
+          <p><span class="username">Mark Webber</span> reagiu ao seu post recente: <span class="post-reference">Meu primeiro torneio!</span></p>
+          <p class="notification-age">Há 1 mês</p>
+        </div>
+      </div>
+
+      <div class="notification unread">
+        <img src="./assets/images/avatar-angela-gray.webp" alt="Foto de perfil" class="profile-picture">
+
+        <div>
+          <p><span class="username">Angela Gray</span> seguiu você</p>
+          <p class="notification-age">Há 5 meses</p>
+        </div>
+      </div>
+
+      <div class="notification unread">
+        <img src="./assets/images/avatar-jacob-thompson.webp" alt="Foto de perfil" class="profile-picture">
+
+        <div>
+          <p><span class="username">Jacob Thompson</span> entrou no seu grupo: <span class="group-reference">Clube de Xadrez</span></p>
+          <p class="notification-age">Há 1 dia</p>
+        </div>
+      </div>
+
+      <div class="notification">
+        <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="Foto de perfil" class="profile-picture">
+
+        <div>
+          <p><span class="username">Rizky Hasanuddin</span> enviou uma mensagem privada:</p>
+          <p class="notification-age">Há 5 dias</p>
+
+          <div class="private-message-reference">
+            <p>Olá, obrigado por criar o Clube de Xadrez. Eu sou membro há algumas semanas e já estou me divertindo muito e melhorando meu jogo.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="notification">
+        <img src="./assets/images/avatar-kimberly-smith.webp" alt="Foto de perfil" class="profile-picture">
+
+        <div>
+          <p><span class="username">Kimberly Smith</span> comentou na sua foto:</p>
+          <p class="notification-age">Há 1 semana</p>
+        </div>
+
+        <img src="./assets/images/image-chess.webp" alt="Garota jogando xadrez" class="photo-reference">
+      </div>
+
+      <div class="notification">
+        <img src="./assets/images/avatar-nathan-peterson.webp" alt="Foto de perfil" class="profile-picture">
+
+        <div>
+          <p><span class="username">Nathan Peterson</span> reagiu ao seu post recente: <span class="post-reference">5 estratégias end-game para aumentar suas chances de vitória</span></p>
+          <p class="notification-age">Há 2 semanas</p>
+        </div>
+      </div>
+
+      <div class="notification">
+        <img src="./assets/images/avatar-anna-kim.webp" alt="Foto de perfil" class="profile-picture">
+
+        <div>
+          <p><span class="username">Anna Kim</span> saiu do grupo: <span class="group-reference"> Grupo de Xadrez</span></p>
+          <p class="notification-age">Há 2 semanas</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
